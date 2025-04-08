@@ -29,7 +29,7 @@ controller = Controller(output_model=Profiles)
 # Browser setup
 browser = Browser(
     config=BrowserConfig(
-        chrome_instance_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+        chrome_instance_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'   #Make sure you've already logged in to your linkedin account on this chrome application
     )
 )
 
